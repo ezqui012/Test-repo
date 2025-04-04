@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI' 
+}
+
+.main_container{
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #0483;
+    max-width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.input_container{
+    min-width: 100px;
+    padding: 10px;
+}
+.input_data{
+    padding: 15px;
+    min-width: 450px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+}
+.container_button{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 325px 150px;
+    
+}
+.number_button{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-area: "button button button"
+               "button button button"
+               "button button button";
+}
+.button_operation{
+    display: flex;
+    flex-direction: column;
+}
+.btn-0{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
